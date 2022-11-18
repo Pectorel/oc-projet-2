@@ -30,7 +30,7 @@
     /* Cards */
     --card-bg-color: #fff;
     --card-border-color: #fff;
-    --card-shadow-color: rgba(0, 0, 0, .1);
+    --card-shadow-color: rgba(0, 0, 0, .14);
 
 
 }
@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 100%;
     max-width: 1400px;
     margin: auto;
+    box-sizing: border-box;
 
 }
 
@@ -213,6 +214,10 @@ i[class^="fa"]{
 
 /* Filters */
 
+.filter-container{
+    margin-left: .4375rem;
+}
+
 .filter-container .section-title{
     font-size: 1.125rem;
 }
@@ -335,7 +340,7 @@ i[class^="fa"]{
     width: 30%;
     background: var(--card-bg-color);
     border-radius: 20px;
-    box-shadow: 0 0 16px var(--card-shadow-color);
+    box-shadow: 0 3px 10px var(--card-shadow-color);
     overflow: hidden;
 
 }
@@ -454,4 +459,22 @@ i[class^="fa"]{
 .card.big .card-info{
     position: relative;
     padding: 1.25rem;
+}
+
+/* Footer */
+
+.footer-bar{
+    background: var(--grey);
+    padding: 2.8125rem 7.375rem;
+    gap: 20%;
+}
+
+.footer-bar-section{
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.footer-bar-section-title{
+    font-size: 1.125rem;
 }
