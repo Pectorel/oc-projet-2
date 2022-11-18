@@ -214,10 +214,6 @@ i[class^="fa"]{
 
 /* Filters */
 
-.filter-container{
-    margin-left: .4375rem;
-}
-
 .filter-container .section-title{
     font-size: 1.125rem;
 }
