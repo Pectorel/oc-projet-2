@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p{
     max-width: 1400px;
     margin: auto;
     box-sizing: border-box;
+    padding: 0 3.125em;
 
 }
 
@@ -325,7 +326,6 @@ i[class^="fa"]{
 }
 
 /* Activities */
-
 #Activites .card{
     width: 22%;
 }
